@@ -1,7 +1,5 @@
 # Air Quality Timeseries — PM2.5 Forecasting & AQI Alerts (Supervised + Semi‑Supervised)
 
-
-Dataset: Beijing Multi-Site Air Quality (12 trạm quan trắc).
 Mini-project “end‑to‑end pipeline” trên bộ **Beijing Multi‑Site Air Quality (12 stations)** nhằm xây dựng:
 1) **Dự báo PM2.5** (regression + ARIMA)  
 2) **Phân lớp AQI (AQI level/class)** để **cảnh báo theo trạm**  
@@ -163,3 +161,5 @@ Trang Le
 
 ## 10) License
 MIT — sử dụng tự do cho nghiên cứu, học thuật và ứng dụng nội bộ.
+- python -m src.semi_experiments --step all
+- streamlit run dashboard.py
